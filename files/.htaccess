@@ -1,0 +1,8 @@
+# Erstellt mit http://one-docs.com/tools/basic-auth
+
+AuthType Basic
+AuthName "Bitte anmelden"
+AuthUserFile /customers/2/c/b/xcosx.de/httpd.www/mgb/files/.htusers
+AuthGroupFile /dev/null
+require valid-user 
+Options +Indexes

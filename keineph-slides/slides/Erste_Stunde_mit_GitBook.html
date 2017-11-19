@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>keineph-slide</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Effe" >
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../reveal-slides/css/reveal.css">
+		<link rel="stylesheet" href="../reveal-slides/css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="../reveal-slides/css/keineph/keineph02.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../reveal-slides/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( ../reveal-slides//print-pdf/gi ) ? '../reveal-slides/css/print/pdf.css' : '../reveal-slides/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../reveal-slides/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+<section data-markdown  data-separator="^\n\n\n">
+					<script type="text/template">
+
+# Liebster Schüler, liebste Schülerin,
+
+um einen Beitrag für euer GitBook zu schreiben, musst du wie folgt vorgehen.
+*Kein Schritt darf übersprungen werden!* - Sonst funktioniert's am Ende nicht.
+
+Verwende für alle Internetseiten am besten *Firefox* und *nicht* den Internet-Explorer.
+
+* Erfinde für dich ein [Pseudonym](https://de.wikipedia.org/wiki/Pseudonym) und ein [Passwort](https://wiki.ubuntuusers.de/Sicherheits-Einmaleins/#Passwoerter). Schreibe dir beides so auf, dass du es in den späteren Unterrichtsstunden wieder findest, also z.B. im Hausaufgabenheft.
+* Für die Registrierung bei GitBook brauchst du außerdem ein E-Mail-Konto, in das du dich über ein Webmail einloggen kannst. Wähle aus, was auf dich zutrifft:
+	* [Ich habe ein E-Mail-Konto und weiß auch mein Passwort, sodass ich jetzt darauf zugreifen kann.](#/1)
+	* [Ich habe ein E-Mail-Konto, kann aber gerade nicht darauf zugreifen.](#/2)
+
+
+### Vorbereitung durch den Lehrer
+*Der Lehrer muss vorher das Gitbook und ein Piratenpad anlegen und für beides einen Link im Projekt- bzw. Tauschordner bereit stellen.*
+
+
+
+
+* Gehe auf [https://www.gitbook.com](https://www.gitbook.com/) und registriere dich ("Sign up") wie folgt: 
+	+ Als *username* nimmst du dein Pseudonym,
+	+ als *email address* nimmst du deine E-Mail-Adresse,
+	+ und als *password* nimmst du dein soeben notiertes Passwort.
+* Gehe danach in dein Webmail und checke deine E-Mails. Du müsstest jetzt zwei E-Mails von GitBook bekommen haben. Öffne die Mail, deren Betreff "confirm" enthält.
+* Klicke den **confirm-Link** an oder - falls das nicht funktioniert - kopiere den **confirm-Link** ("http..." ohne den letzten ".", der den Satz beendet) und öffne ihn in einem neuen Tab, um die Registrierung bei GitBook abzuschließen.
+* Schreibe dein Pseudonym ins Piratenpad. Den Link zum Piratenpad findest du im Projekt- bzw. Tausch-Ordner.
+* Sobald dich der Lehrer als Autor im GitBook zugelassen hat, kannst du [mit dem GitBook arbeiten](#/3).
+
+
+
+* Gehe auf [https://www.gitbook.com](https://www.gitbook.com/) und registriere dich ("Sign up")  wie folgt: 
+	+ Trage bei "username" dein Pseudonym ein.
+	+ Trage bei "email address"  ** *pseudonym*@instant-mail.de ** ein, wobei du *pseudonym* durch dein Pseudonym ersetzen musst.
+	+ Trage bei "password" dein notiertes Passwort ein.
+* Gehe auf [http://www.instant-mail.de](http://www.instant-mail.de/) und rufe die Nachrichten von *pseudonym*@instant-mail.de ab. Dazu musst du dein Pseudonym eintippen und auf "Nachrichten abrufen!" klicken.
+* Du müsstest jetzt zwei E-Mails von GitBook sehen. Öffne die Mail, deren Betreff "confirm" enthält.
+* In der confirm-Mail musst du den **confirm-Link** aufrufen. Markiere dazu den Link "http..." - aber ohne den letzten ".", der den Satz beendet, und kopiere ihn in die Zwischenablage. Öffne einen neuen Tab, füge den Link ein und drücke Enter. 
+* In der E-Mail klickst du danach am besten auf "löschen".
+* Schreibe dein Pseudonym ins Piratenpad. Den Link zum Piratenpad findest du im Projekt- bzw. Tausch-Ordner.
+* Sobald dich der Lehrer als Autor im GitBook zugelassen hat, kannst du [mit dem GitBook arbeiten](#/3).
+
+
+
+### GitBook starten = New Branch nicht vergessen
+* Rufe den Link zum GitBook auf, den du im Projekt- bzw. Tauschordner findest.
+* Wenn du einen Artikel erstellen oder bearbeiten willst, kannst du auf *"Edit"*. klicken.
+* ABER bevor du irgend wo drauf klickst oder etwas schreibst, musst du *immer* zuerst einen **New Branch** erstellen. Einen Branch erstellst du oben rechts bei "master".
+
+> Immer zuerst einen *New Branch* erstellen!
+
+
+### Einstellungen und Bedienung
+* Die Rechtschreibprüfung kannst du auf Deutsch umstellen: auf's Zahnrad oben rechts klicken...
+* Einen neuen Artikel kannst du erstellen, indem du ins Feld "Files Tree" einen Rechtsklick machst. Deine Datei muss *dateiname*.md lauten. Ohne md erkennt GitBook nicht, dass es eine Markdown-Datei ist und kann keine Voransicht erzeugen.
+* Ein Bild kannst du durch Drag&Drop in den "Files Tree" hochladen.
+* Formeln müssen vor und hinter dem Code *zwei Dollarzeichen* haben. Ich persönlich finde es besser, wenn ich den Quellcode immer sehe. Dazu muss man beim Zanrad oben rechts "Enable WYSIWYG..." deaktivieren.
+
+### Anleitungen und Code
+* [Cheatsheet zu Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [LaTeX-Befehle für mathematische Formeln](https://de.wikipedia.org/wiki/Hilfe:TeX)
+
+
+					</script>
+				</section>
+
+				
+
+			</div>
+
+		</div>
+
+		<script src="../reveal-slides/lib/js/head.min.js"></script>
+		<script src="../reveal-slides/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transitionSpeed: 'fast',
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../reveal-slides/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal-slides/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal-slides/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../reveal-slides/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal-slides/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../reveal-slides/plugin/math/math.js', async: true },
+					// { src: '../reveal-slides/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,157 @@
+.reveal {
+	font-size: 23px;
+	background-color: #003D4C;
+	color: #acb7b7;
+}
+
+.reveal .slides {
+	text-align: left;
+}
+	
+.reveal.center, .reveal.center .slides, .reveal.center .slides section {
+/*	    max-width: 105%;*/
+	    padding: 0 0;
+	}
+	
+.reveal p {
+	margin-bottom: 8px;
+	margin-top: 8px;
+	line-height: 1.4;
+}
+
+.reveal h1 {
+/*	text-align: center;*/
+	font-size: 58px; /*12vmin*/
+/*	font-family: Georgia, sans-serif;*/
+/*	font-weight: 600;*/
+/*	letter-spacing: 0.02em;*/
+	word-wrap: break-word;
+/*	text-transform: uppercase;*/
+}
+
+.reveal h1 span {
+    display: block;
+    font-family: "Source Sans Pro",Helvetica,sans-serif;
+    font-size: 4vmin;
+    font-weight: normal;
+    line-height: 4vmin;
+    margin: -0.2em 0 1rem;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.reveal h2 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 45px;
+	text-transform: none;
+}
+
+.reveal h3 {
+	margin-top: 5px;
+	margin-bottom: 8px;
+	font-size: 30px;
+	text-transform: none;
+}
+
+.reveal h4 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 25px;
+   text-transform: none;
+}
+
+.reveal h6 {
+	text-align: center;
+}
+
+.reveal ul {
+	list-style-type: none;
+	margin-left: 60px;
+	margin-top: 5px;
+	margin-bottom: 10px; /*Vertikaler Abstand, wenn es Unterpunkte gibt*/
+/*	text-align: left;*/
+}
+
+.reveal li{
+ padding-top: 5px; 
+}
+
+.reveal ul ul {
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.reveal ul li:before,
+.reveal dl dt:before {
+	color: #04B0DB;
+	content: "\26AB"; /*2022*/
+	    /*https://de.wikipedia.org/wiki/Liste_der_Unicodebl%C3%B6cke
+	font-size: 29px;
+    http://unicode-table.com/de/
+    */
+
+/*	margin-right: 0.7em;*/
+/*	text-align: right;*/
+	position: absolute;
+	left: 1em;
+/*	display: inline-block;*/
+}
+
+.reveal ul ul li:before {
+	color: #04B0DB;
+   content: "\26AA";
+	position: absolute;
+	left: 2.7em;
+}
+
+.reveal ol {
+    counter-reset: list;
+    list-style-type: none;
+}
+
+.reveal ol li:before {
+	content: counter(list) ".";
+	counter-increment: list;
+	font-size: 3em;
+	color: #04B0DB;
+	margin-right: 1vmin;
+/*	display: inline-block;*/
+	position: relative;
+/*	top: -0.075em;*/
+}
+
+.reveal dl dd {
+	font-size: 0.8em;
+	margin-left: 1rem;
+}
+
+.frage:before {
+	content: "\22B3";
+    color: #04B0DB;
+    left: -3vmin;
+	margin: 0 -1vmin;
+    position: relative;
+	
+}
+
+.reveal .weiter {
+/*    bottom: -30vmin;*/
+    font-size: 22px;
+    left: 1vmin;
+    line-height: 9em;
+    position: absolute;
+    right: 1vmin;
+    text-align: center;
+}
+
+.reveal blockquote {
+	font-style: normal; 
+	box-shadow: 0 0 17px #04B0DB;
+	padding: 10px 30px 10px 30px;
+	background: none;
+}
+
+.rechts {
+	text-align: right;
+}

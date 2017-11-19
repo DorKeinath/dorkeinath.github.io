@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>keineph-slide</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Effe" >
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../reveal-slides/css/reveal.css">
+		<link rel="stylesheet" href="../reveal-slides/css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="../reveal-slides/css/keineph/keineph02.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../reveal-slides/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( ../reveal-slides//print-pdf/gi ) ? '../reveal-slides/css/print/pdf.css' : '../reveal-slides/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../reveal-slides/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+<section data-markdown  data-separator="^\n\n\n">
+					<script type="text/template">
+
+## Geometrie
+# Geometrische Objekte
+
+
+
+## Zeichnen und definieren
+# Geometrische Objekte (2D)
+
+Zeichne mit GeoGebra verschiedene zweidimensionale Objekte<!-- .element: class="frage" --> ([Vierecke](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Viereck-Hierarchie.png/403px-Viereck-Hierarchie.png), Dreiecke,...). 
+
+Skaliere deine Objekte so, dass sie einen Flächeninhalt von $40 cm^2$ haben. <!-- .element: class="frage" -->
+
+Spielgele mit GeoGebra ein Objekt deiner Wahl an einer Achse. <!-- .element: class="frage" -->
+
+Spielgele mit GeoGebra ein Objekt deiner Wahl an einem Punkt.<!-- .element: class="frage" -->
+
+
+
+## Partner-Einteilung
+Es sei $n = \frac{Anzahl Schüler der Klasse}{2}$.
+Zählt bis $n$ durch und fangt dann wieder bei $1$ an.
+
+*Partner-Einteilung anhand der Überschriften im Gitbook*
+
+
+
+## Zeichnen und definieren
+# Geometrische Objekte (2D)
+
+Erstellt jeweils zu zweit zum zugewiesenen Objekt einen Markdown-Beitrag für euer Gitbook. Erstellt für dieses Objekt eine Datei *objektname.md* und **vergesst nicht, vorher einen "New Branch" zu erstellen!** Es soll folgendes vorhanden sein:
+* Überschrift
+* Euer Bild
+* Definitionen und Eigenschaften
+* Formel für den *Flächeninhalt* und evtl. ein Beispiel
+* Relationen zu anderen Objekten
+
+### Anleitungen und Hilfe
+* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+* [LaTeX](https://de.wikipedia.org/wiki/Hilfe:TeX)
+
+<!--
+* [LaTeX-Mathematische Zeichen](https://de.wikipedia.org/wiki/Liste_mathematischer_Symbole#Gleichheitszeichen)
+* [LaTeX-Code](http://www.artofproblemsolving.com/wiki/index.php?title=LaTeX:Commands)
+* [LaTeX-Symbole](http://www.artofproblemsolving.com/wiki/index.php?title=LaTeX:Symbols)
+-->
+
+
+
+## Zeichnen und definieren
+# Geometrische Objekte (3D)
+
+Erstellt jeweils zu zweit zum zugewiesenen Objekt einen Markdown-Beitrag für euer Gitbook. Speicher die Datei *objektname.md* im Projekt-Ordner. Es soll folgendes vorhanden sein:
+* Überschrift
+* Euer Bild
+* Definitionen und Eigenschaften
+* Formel für's *Volumen* und evtl. ein Beispiel oder eine Erläuterung
+* Evtl. Formel für die Mantelfläche und evtl. ein Beispiel oder eine Erläuterung
+* Evtl. Beziehung zu anderen Objekten
+
+### Werkzeug
+* [GeoGebra 3D](https://www.geogebra.org/3d)
+* Google SketchUp
+
+
+					</script>
+				</section>
+
+				
+
+			</div>
+
+		</div>
+
+		<script src="../reveal-slides/lib/js/head.min.js"></script>
+		<script src="../reveal-slides/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transitionSpeed: 'fast',
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../reveal-slides/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../reveal-slides/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../reveal-slides/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../reveal-slides/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../reveal-slides/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../reveal-slides/plugin/math/math.js', async: true },
+					// { src: '../reveal-slides/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
