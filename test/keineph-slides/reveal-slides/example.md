@@ -1,3 +1,0 @@
-## Überschrift
-Text
-# Überschrift
