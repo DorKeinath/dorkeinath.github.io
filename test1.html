@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="3">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+
+<h1>NoKo der </h1>
+<p>5a</p>
+
+</body>
+</html>
+<!--
+<script type="text/javascript">
+  setTimeout(function () { location.reload(true); }, 3000);
+</script> -->
+
+<!--  https://stackoverflow.com/questions/7014796/535-ways-to-reload-the-page-with-javascript-what-are-the-consequences -->
+
+# Serverside changes notified shown and alerted on a webpage
+
+A click on a button in the conference room shall cause an update and acoustic alert on all browsers visiting a website.
+
+I'm successful with the update by forcing the visitors browsers to reload the page by
+    <meta http-equiv="refresh" content="3">
+or
+    <script type="text/javascript">
+      setTimeout(function () { location.reload(true); }, 3000);
+    </script>
+Thereby changes in `current_conference.html` are shown on all screens once I saved the file on the server. Thus I only have to write a program with a function behind a button that makes the changes and upload.
+
+But with this solution I've no idea how I can reach my aim of the acoustic alert if a change is made.
+
+I would be glad to here about your way you would implement this small system!?
+
+# Antworten/Recherche
+http://twistedmatrix.com/trac/
+
+https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet
+
+https://github.com/panique/php-long-polling
+
+https://stackoverflow.com/questions/333664/how-do-i-implement-basic-long-polling
+
+http://socketo.me/docs/hello-world
